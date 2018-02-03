@@ -6,14 +6,14 @@
     "icon": "images/logo.png",
     "galleryBanner": {
         "color": "#ffffff",
-        "theme": "white"
+        "theme": "light"
     },
     "license": "",
     "repository": {
         "type": "git",
         "url": "https://github.com/asafari72/devextremeSnippet.git"
     },
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "0.10.x"
     },
