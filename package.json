@@ -5,15 +5,15 @@
     "description": "Devextreme snippets",
     "icon": "images/logo.png",
     "galleryBanner": {
-        "color": "#000000",
-        "theme": "dark"
+        "color": "#ffffff",
+        "theme": "white"
     },
     "license": "",
     "repository": {
         "type": "git",
         "url": "https://github.com/asafari72/devextremeSnippet.git"
     },
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "0.10.x"
     },
