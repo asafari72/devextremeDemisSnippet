@@ -1,5 +1,12 @@
-# Usage
 
+# Install
+1. install extension on vs code
+2. reload vs code
+3. type dx in html file
+4. choose component and press enter
+5. have fun :)
+
+# Usage
 1. dx-textbox => create textbox.
 2. dx-lov => create lov.
 3. dx-popup => create popup.
