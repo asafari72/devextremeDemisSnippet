@@ -2,7 +2,7 @@
 	"dx-textbox": {
 		"prefix": "dx-textbox",
 		"body": [
-			"<dx-label text={{'${1:index}' | translate}}>",
+			"<dx-label text='{{'${1:index}' | translate}}'>",
 			"<dx-text-box [(value)]='${2:index}'>",
 			"</dx-text-box>",
 			"</dx-label>",
@@ -13,7 +13,7 @@
 	"dx-lov": {
 		"prefix": "dx-lov",
 		"body": [
-			"<dx-label text={{'${1:text}' | translate}}>",
+			"<dx-label text='{{'${1:text}' | translate}}'>",
 			"<dx-lov [(value)]='${2:value}' [(text)]='${3:text}' formCode='${4:code}'>",
 			"</dx-lov>",
 			"</dx-label>",
@@ -39,7 +39,7 @@
 	"dx-date": {
 		"prefix": "dx-date",
 		"body": [
-			"<dx-label text={{'${1:text}' | translate}}>",
+			"<dx-label text='{{'${1:text}' | translate}}'>",
 			"<dx-date [(value)]='${2:value}' [showToday]='${3:boolean}'>",
 			"</dx-date>",
 			"</dx-label>",
