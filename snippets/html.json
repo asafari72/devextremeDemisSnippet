@@ -13,7 +13,7 @@
 	"dx-lov": {
 		"prefix": "dx-lov",
 		"body": [
-			"<dx-label text=\"'{{'${1:text}' | translate}}'\">",
+			"<dx-label text=\"{{'${1:text}' | translate}}'\">",
 			"<dx-lov [(value)]='${2:value}' [(text)]='${3:text}' formCode='${4:code}'>",
 			"</dx-lov>",
 			"</dx-label>",
