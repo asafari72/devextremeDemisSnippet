@@ -1,0 +1,59 @@
+{
+	"dx-textbox": {
+		"prefix": "dx-textbox",
+		"body": [
+			"<dx-label text=\"{{'${1:index}' | translate}}'\">",
+			"<dx-text-box [(value)]='${2:index}'>",
+			"</dx-text-box>",
+			"</dx-label>",
+			"$0"
+		],
+		"description": "Text Box Angular"
+	},
+	"dx-lov": {
+		"prefix": "dx-lov",
+		"body": [
+			"<dx-label text=\"{{'${1:text}' | translate}}'\">",
+			"<dx-lov [(value)]='${2:value}' [(text)]='${3:text}' formCode='${4:code}'>",
+			"</dx-lov>",
+			"</dx-label>",
+			"$0"
+		],
+		"description": "Lov Angular"
+	},
+	"dx-popup": {
+		"prefix": "dx-popup",
+		"body": [
+			"<dx-popup class='popup' [width]='${1:width}' [height]='${2:height}' [showTitle]='true' title='${3:title}' [showCloseButton]='true' [closeOnOutsideClick] = 'true' [dragEnabled] = 'true' [(visible)] = '${4:variable}' > ",
+			"<div *dxTemplate='let data of 'content''>",
+			"<form (submit)='onFormSubmit($event)'>",
+			"<div class='row'>",
+			"</div>",
+			"</form>",
+			"</div>",
+			"</dx-popup>",
+			"$0"
+		],
+		"description": "Popup Angular"
+	},
+	"dx-date": {
+		"prefix": "dx-date",
+		"body": [
+			"<dx-label text=\"'{{'${1:text}' | translate}}'\">",
+			"<dx-date [(value)]='${2:value}' [showToday]='${3:boolean}'>",
+			"</dx-date>",
+			"</dx-label>",
+			"$0"
+		],
+		"description": "Date Box Angular"
+	},
+	"dx-button": {
+		"prefix": "dx-button",
+		"body": [
+			"<dx-button [width]='${1:width}' text='${2:text}' type='${3:class}' (onClick)='${4:function}'>",
+			"</dx-button>",
+			"$0"
+		],
+		"description": "Date Box Angular"
+	}
+}
