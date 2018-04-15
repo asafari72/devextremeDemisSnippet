@@ -1,3 +1,4 @@
+![alt text](https://www.typescriptlang.org/assets/images/friends/Demis/logo.png)
 
 # Install
 1. install extension on vs code
