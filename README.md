@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" alt="Demis Company" src="./images/logo-wide.png">
+  <img width="500" alt="Demis Company" src="https://pasteboard.co/HgIuqr3.png">
 </p>
 
 # Install
