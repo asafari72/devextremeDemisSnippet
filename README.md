@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" alt="Demis Company" src="https://www.typescriptlang.org/assets/images/friends/Demis/logo.png">
+  <img width="500" alt="Demis Company" src="./images/logo-wide.png">
 </p>
 
 # Install
