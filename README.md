@@ -1,4 +1,6 @@
-![alt text](https://www.typescriptlang.org/assets/images/friends/Demis/logo.png)
+<p align="center">
+  <img width="300" height="90" src="https://www.typescriptlang.org/assets/images/friends/Demis/logo.png">
+</p>
 
 # Install
 1. install extension on vs code
