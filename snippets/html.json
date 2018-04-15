@@ -1,6 +1,6 @@
 {
   "dx-lov": {
-    "prefix": "dx-lov",
+    "prefix": "dms-lov",
     "body": [
       "<dx-label text=\"{{'${1:text}' | translate}}'\">",
       "<dx-lov [(value)]='${2:value}' [(text)]='${3:text}' formCode='${4:code}'>",
@@ -12,7 +12,7 @@
   },
 
   "dx-textbox": {
-    "prefix": "dx-textbox",
+    "prefix": "dms-textbox",
     "body": [
       "<dx-text-box [(value)]=\"${1:value}\" [disabled]=\"${2:false}\" [readOnly]=\"${3:false}\"></dx-text-box>",
       "$0"
@@ -28,7 +28,7 @@
     "description": "Text Area"
   },
   "dx-numberbox": {
-    "prefix": "dx-numberbox",
+    "prefix": "dms-numberbox",
     "body": [
       "<dx-number-box",
       "[(value)]=\"${1:value}\"",
@@ -43,7 +43,7 @@
     "description": "Number Box"
   },
   "dx-checkbox": {
-    "prefix": "dx-checkbox",
+    "prefix": "dms-checkbox",
     "body": [
       "<dx-check-box",
       "[(value)]=\"${1:value}\"",
@@ -55,7 +55,7 @@
     "description": "Check Box"
   },
   "dx-datebox": {
-    "prefix": "dx-datebox",
+    "prefix": "dms-datebox",
     "body": [
       "<dx-date-box [(value)]=\"${1:value}\" [type]=\"${2:datetime}\" [showClearButton]=\"${3:true}\"></dx-date-box>",
       "$0"
@@ -63,7 +63,7 @@
     "description": "Date Box"
   },
   "dx-selectbox": {
-    "prefix": "dx-selectbox",
+    "prefix": "dms-selectbox",
     "body": [
       "<dx-select-box [items]=\"${1:array}\" [value]=\"${2:value}\" [readOnly]=\"${3:false}\" [disabled]=\"${4:false}\"></dx-select-box>",
       "$0"
@@ -71,7 +71,7 @@
     "description": "Select Box"
   },
   "dx-radio-group": {
-    "prefix": "dx-radio-group",
+    "prefix": "dms-radio-group",
     "body": [
       "<dx-radio-group [items]=\"${1}\" [value]=\"${2}\" layout=\"${3:horizontal}\"></dx-radio-group>",
       "$0"
@@ -79,7 +79,7 @@
     "description": "Radio Group"
   },
   "dx-load-indicator": {
-    "prefix": "dx-load-indicator",
+    "prefix": "dms-load-indicator",
     "body": [
       "<dx-load-indicator width=\"${1}\" height=\"${2}\"></dx-load-indicator>",
       "$0"
@@ -87,7 +87,7 @@
     "description": "Load Indicator"
   },
   "dx-load-panel": {
-    "prefix": "dx-load-panel",
+    "prefix": "dms-load-panel",
     "body": [
       "<dx-load-panel",
       "shadingColor=\"${1:rgba(0,0,0,0.4)}\"",
@@ -104,7 +104,7 @@
     "description": "Load Panel"
   },
   "dx-popover": {
-    "prefix": "dx-popover",
+    "prefix": "dms-popover",
     "body": [
       "<dx-popover",
       "target=\"${1:#target}\"",
@@ -120,26 +120,24 @@
     "description": "Popover"
   },
   "dx-popup": {
-    "prefix": "dx-popup",
+    "prefix": "dms-popup",
     "body": [
-      "<dx-popup",
+      "<popup",
       "[width]=\"${1:300}\"",
       "[height]=\"${2:250}\"",
-      "[showTitle]=\"${3:true}\"",
       "title=\"${4:Title Here}\"",
-      "[dragEnabled]=\"${5:true}\"",
-      "[closeOnOutsideClick]=\"${6:true}\"",
-      "[(visible)]=\"${7:Varibale}\">",
-      "<div *dxTemplate=\"let data of 'content'\">",
+	  "[(showPopup)]=\"${7:Varibale}\"",
+	  "[isFullScreen]=\"${8:false}\"",
+      "(onClosing)=\"${9:function()}\"",
+      "(onOpening)=\"${10:function()}\">",
       "Your Content",
-      "</div>",
-      "</dx-popup>",
+      "</popup>",
       "$0"
     ],
     "description": "Popup"
   },
   "dx-progress-bar": {
-    "prefix": "dx-progress-bar",
+    "prefix": "dms-progress-bar",
     "body": [
       "<dx-progress-bar",
       "[width]=\"${1}\"",
@@ -154,7 +152,7 @@
     "description": "Progress Bar"
   },
   "dx-tooltip": {
-    "prefix": "dx-tooltip",
+    "prefix": "dms-tooltip",
     "body": [
       "<dx-tooltip",
       "target=\"${1:#target}\"",
@@ -169,7 +167,7 @@
     "description": "Tooltip"
   },
   "dx-menu": {
-    "prefix": "dx-menu",
+    "prefix": "dms-menu",
     "body": [
       "<dx-menu",
       "[dataSource]=\"${1:dataSource}\"",
