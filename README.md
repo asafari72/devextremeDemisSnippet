@@ -1,6 +1,3 @@
-<p align="center">
-  <img width="500" alt="Demis Company" src="http://alisafari.ir/images/logo-wide.png">
-</p>
 
 # Install
 1. install extension on vs code
