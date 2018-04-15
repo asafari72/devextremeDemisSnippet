@@ -1,8 +1,8 @@
 {
     "name": "smartAngularSnippets",
     "publisher": "asafari72",
-    "displayName": "Devextreme Snippets Demis",
-    "description": "Devextreme snippets Demis",
+    "displayName": "Devextreme Snippets Smart company",
+    "description": "Devextreme snippets Smart company",
     "icon": "images/logo.png",
     "galleryBanner": {
         "color": "#ffffff",
@@ -11,7 +11,7 @@
     "license": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/asafari72/devextremeSnippet.git"
+        "url": "https://github.com/asafari72/devextremeSmartCoSnippet.git"
     },
     "version": "0.0.1",
     "engines": {
