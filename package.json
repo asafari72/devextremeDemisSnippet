@@ -1,5 +1,5 @@
 {
-    "name": " hooshmandTasmimAngularSnippets",
+    "name": "hooshmandtasmimangularsnippets",
     "publisher": "asafari72",
     "displayName": "Devextreme Snippets | Hooshmand Tasmim Co.",
     "description": "Devextreme Snippets | Hooshmand Tasmim Co.",
@@ -13,7 +13,7 @@
         "type": "git",
         "url": "https://github.com/asafari72/devextremeHooshmandTasmimCoSnippet.git"
     },
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "vscode": "0.10.x"
     },
