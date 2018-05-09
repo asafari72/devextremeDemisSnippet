@@ -8,7 +8,7 @@
 			"</dx-label>",
 			"$0"
 		],
-		"description": "Lov Angular"
+		"description": "lov"
 	},
 	"dx-textbox": {
 		"prefix": "hs-textbox",
@@ -16,7 +16,7 @@
 			"<dx-text-box [(value)]=\"${1:value}\" [disabled]=\"${2:false}\" [readOnly]=\"${3:false}\"></dx-text-box>",
 			"$0"
 		],
-		"description": "Text Box"
+		"description": "textbox"
 	},
 	"dx-textarea": {
 		"prefix": "hs-textarea",
@@ -24,7 +24,7 @@
 			"<dx-text-area [height]=\"${1:height}\" [maxLength]=\"${2:lenght}\" [(value)]=\"${3:value}\" [readOnly]=\"${4:false}\"></dx-text-area>",
 			"$0"
 		],
-		"description": "Text Area"
+		"description": "textarea"
 	},
 	"dx-numberbox": {
 		"prefix": "hs-numberbox",
@@ -39,7 +39,7 @@
 			"</dx-number-box>",
 			"$0"
 		],
-		"description": "Number Box"
+		"description": "numberbox"
 	},
 	"dx-checkbox": {
 		"prefix": "hs-checkbox",
@@ -51,7 +51,7 @@
 			"</dx-check-box>",
 			"$0"
 		],
-		"description": "Check Box"
+		"description": "checkbox"
 	},
 	"dx-datebox": {
 		"prefix": "hs-datebox",
@@ -59,7 +59,7 @@
 			"<dx-date-box [(value)]=\"${1:value}\" [type]=\"${2:datetime}\" [showClearButton]=\"${3:true}\"></dx-date-box>",
 			"$0"
 		],
-		"description": "Date Box"
+		"description": "datebox"
 	},
 	"dx-selectbox": {
 		"prefix": "hs-selectbox",
@@ -67,7 +67,7 @@
 			"<dx-select-box [items]=\"${1:array}\" [value]=\"${2:value}\" [readOnly]=\"${3:false}\" [disabled]=\"${4:false}\"></dx-select-box>",
 			"$0"
 		],
-		"description": "Select Box"
+		"description": "selectbox"
 	},
 	"dx-radio-group": {
 		"prefix": "hs-radio-group",
@@ -75,7 +75,7 @@
 			"<dx-radio-group [items]=\"${1}\" [value]=\"${2}\" layout=\"${3:horizontal}\"></dx-radio-group>",
 			"$0"
 		],
-		"description": "Radio Group"
+		"description": "radio group"
 	},
 	"dx-load-indicator": {
 		"prefix": "hs-load-indicator",
@@ -83,7 +83,7 @@
 			"<dx-load-indicator width=\"${1}\" height=\"${2}\"></dx-load-indicator>",
 			"$0"
 		],
-		"description": "Load Indicator"
+		"description": "load indicator"
 	},
 	"dx-load-panel": {
 		"prefix": "hs-load-panel",
@@ -100,7 +100,7 @@
 			"</dx-load-panel>",
 			"$0"
 		],
-		"description": "Load Panel"
+		"description": "load panel"
 	},
 	"dx-popover": {
 		"prefix": "hs-popover",
@@ -116,7 +116,7 @@
 			"</dx-popover>",
 			"$0"
 		],
-		"description": "Popover"
+		"description": "popover"
 	},
 	"dx-popup": {
 		"prefix": "hs-popup",
@@ -133,7 +133,7 @@
 			"</popup>",
 			"$0"
 		],
-		"description": "Popup"
+		"description": "popup"
 	},
 	"dx-progress-bar": {
 		"prefix": "hs-progress-bar",
@@ -148,7 +148,7 @@
 			"</dx-progress-bar>",
 			"$0"
 		],
-		"description": "Progress Bar"
+		"description": "progress bar"
 	},
 	"dx-tooltip": {
 		"prefix": "hs-tooltip",
@@ -163,7 +163,7 @@
 			"</dx-tooltip>",
 			"$0"
 		],
-		"description": "Tooltip"
+		"description": "tooltip"
 	},
 	"dx-menu": {
 		"prefix": "hs-menu",
@@ -203,7 +203,7 @@
 			"</search>",
 			"$0"
 		],
-		"description": "Menu"
+		"description": "search"
 	},
 	"dx-scroll-view": {
 		"prefix": "hs-scroll-view",
@@ -216,7 +216,7 @@
 			"</dx-scroll-view>",
 			"$0"
 		],
-		"description": "Menu"
+		"description": "scroll view"
 	},
 	"input-group": {
 		"prefix": "hs-input-group",
@@ -231,7 +231,7 @@
 			"</input-group>",
 			"$0"
 		],
-		"description": "Menu"
+		"description": "input group"
 	},
 	"grid-toolbar": {
 		"prefix": "hs-grid",
@@ -255,7 +255,7 @@
 			"</grid-toolbar>",
 			"$0"
 		],
-		"description": "Menu"
+		"description": "toolbar"
 	},
 	"dxo-lookup": {
 		"prefix": "hs-lookup",
@@ -267,7 +267,7 @@
 			"</dxo-lookup>",
 			"$0"
 		],
-		"description": "Menu"
+		"description": "lookup"
 	},
 	"dx-accardion": {
 		"prefix": "hs-accardion",
@@ -289,6 +289,6 @@
 			"</dx-accardion>",
 			"$0"
 		],
-		"description": "Menu"
+		"description": "accardion"
 	}
 }
