@@ -1,194 +1,294 @@
 {
-  "dx-lov": {
-    "prefix": "dms-lov",
-    "body": [
-      "<dx-label text=\"{{'${1:text}' | translate}}'\">",
-      "<dx-lov [(value)]='${2:value}' [(text)]='${3:text}' formCode='${4:code}'>",
-      "</dx-lov>",
-      "</dx-label>",
-      "$0"
-    ],
-    "description": "Lov Angular"
-  },
-
-  "dx-textbox": {
-    "prefix": "dms-textbox",
-    "body": [
-      "<dx-text-box [(value)]=\"${1:value}\" [disabled]=\"${2:false}\" [readOnly]=\"${3:false}\"></dx-text-box>",
-      "$0"
-    ],
-    "description": "Text Box"
-  },
-  "dx-textarea": {
-    "prefix": "dx-textarea",
-    "body": [
-      "<dx-text-area [height]=\"${1:height}\" [maxLength]=\"${2:lenght}\" [(value)]=\"${3:value}\" [readOnly]=\"${4:false}\"></dx-text-area>",
-      "$0"
-    ],
-    "description": "Text Area"
-  },
-  "dx-numberbox": {
-    "prefix": "dms-numberbox",
-    "body": [
-      "<dx-number-box",
-      "[(value)]=\"${1:value}\"",
-      "[showSpinButtons]=\"${2:true}\"",
-      "[showClearButton]=\"${3:true}\"",
-      "[disabled]=\"${4:false}\"",
-      "[readOnly]=\"${5:false}\"",
-      "[min]=\"${6:value}\" [max]=\"${7:value}\">",
-      "</dx-number-box>",
-      "$0"
-    ],
-    "description": "Number Box"
-  },
-  "dx-checkbox": {
-    "prefix": "dms-checkbox",
-    "body": [
-      "<dx-check-box",
-      "[(value)]=\"${1:value}\"",
-      "[width]=\"${2:width}\"",
-      "text=\"${3:text}\">",
-      "</dx-check-box>",
-      "$0"
-    ],
-    "description": "Check Box"
-  },
-  "dx-datebox": {
-    "prefix": "dms-datebox",
-    "body": [
-      "<dx-date-box [(value)]=\"${1:value}\" [type]=\"${2:datetime}\" [showClearButton]=\"${3:true}\"></dx-date-box>",
-      "$0"
-    ],
-    "description": "Date Box"
-  },
-  "dx-selectbox": {
-    "prefix": "dms-selectbox",
-    "body": [
-      "<dx-select-box [items]=\"${1:array}\" [value]=\"${2:value}\" [readOnly]=\"${3:false}\" [disabled]=\"${4:false}\"></dx-select-box>",
-      "$0"
-    ],
-    "description": "Select Box"
-  },
-  "dx-radio-group": {
-    "prefix": "dms-radio-group",
-    "body": [
-      "<dx-radio-group [items]=\"${1}\" [value]=\"${2}\" layout=\"${3:horizontal}\"></dx-radio-group>",
-      "$0"
-    ],
-    "description": "Radio Group"
-  },
-  "dx-load-indicator": {
-    "prefix": "dms-load-indicator",
-    "body": [
-      "<dx-load-indicator width=\"${1}\" height=\"${2}\"></dx-load-indicator>",
-      "$0"
-    ],
-    "description": "Load Indicator"
-  },
-  "dx-load-panel": {
-    "prefix": "dms-load-panel",
-    "body": [
-      "<dx-load-panel",
-      "shadingColor=\"${1:rgba(0,0,0,0.4)}\"",
-      "[position]=\"${2:{ of: '#Selector' }}\"",
-      "[(visible)]=\"${3:variable}\"",
-      "[showIndicator]=\"${4:true}\"",
-      "[showPane]=\"${5:true}\"",
-      "[closeOnOutsideClick]=\"${6:false}\"",
-      "(onShown)=\"${7:onShown()}\"",
-      "(onHidden)=\"${8:onHidden()}\">",
-      "</dx-load-panel>",
-      "$0"
-    ],
-    "description": "Load Panel"
-  },
-  "dx-popover": {
-    "prefix": "dms-popover",
-    "body": [
-      "<dx-popover",
-      "target=\"${1:#target}\"",
-      "position=\"${2:top}\"",
-      "[width]=\"${3:300}\"",
-      "[(visible)]=\"${4:Variable}\">",
-      "<div *dxTemplate=\"let data = model of 'content'\">",
-      "Your Content",
-      "</div>",
-      "</dx-popover>",
-      "$0"
-    ],
-    "description": "Popover"
-  },
-  "dx-popup": {
-    "prefix": "dms-popup",
-    "body": [
-      "<popup",
-      "[width]=\"${1:300}\"",
-      "[height]=\"${2:250}\"",
-      "title=\"${4:Title Here}\"",
-	  "[(showPopup)]=\"${7:Varibale}\"",
-	  "[isFullScreen]=\"${8:false}\"",
-      "(onClosing)=\"${9:function()}\"",
-      "(onOpening)=\"${10:function()}\">",
-      "Your Content",
-      "</popup>",
-      "$0"
-    ],
-    "description": "Popup"
-  },
-  "dx-progress-bar": {
-    "prefix": "dms-progress-bar",
-    "body": [
-      "<dx-progress-bar",
-      "[width]=\"${1}\"",
-      "[class.complete]=\"${2}\"",
-      "[min]=\"${3:0}\"",
-      "[max]=\"${4}\"",
-      "[statusFormat]=\"${6}\"",
-      "[value]=\"${7}\">",
-      "</dx-progress-bar>",
-      "$0"
-    ],
-    "description": "Progress Bar"
-  },
-  "dx-tooltip": {
-    "prefix": "dms-tooltip",
-    "body": [
-      "<dx-tooltip",
-      "target=\"${1:#target}\"",
-      "position=\"${2:top}\"",
-      "[(visible)]=\"${3:Varibale}\">",
-      "<div *dxTemplate=\"let data = data of 'content'\">",
-      "Your Content",
-      "</div>",
-      "</dx-tooltip>",
-      "$0"
-    ],
-    "description": "Tooltip"
-  },
-  "dx-menu": {
-    "prefix": "dms-menu",
-    "body": [
-      "<dx-menu",
-      "[dataSource]=\"${1:dataSource}\"",
-      "displayExpr=\"${2:title}\"",
-      "orientation=\"${3:horizontal}\"",
-      "(onItemClick)=\"${4:menuItemClick($event)}\">",
-      "</dx-menu>",
-      "$0"
-    ],
-    "description": "Menu"
-  },
-  "dx-button": {
-    "prefix": "dx-button",
-    "body": [
-      "<dx-button",
-      "[text]=\"${1:Text}\"",
-      "[type]=\"${2:success}\"",
-      "(onItemClick)=\"${3:buttonClick($event)}\">",
-      "</dx-menu>",
-      "$0"
-    ],
-    "description": "Menu"
-  }
+	"dx-lov": {
+		"prefix": "hs-lov",
+		"body": [
+			"<dx-label text=\"{{'${1:text}' | translate}}'\">",
+			"<dx-lov [(value)]='${2:value}' [(text)]='${3:text}' formCode='${4:code}'>",
+			"</dx-lov>",
+			"</dx-label>",
+			"$0"
+		],
+		"description": "Lov Angular"
+	},
+	"dx-textbox": {
+		"prefix": "hs-textbox",
+		"body": [
+			"<dx-text-box [(value)]=\"${1:value}\" [disabled]=\"${2:false}\" [readOnly]=\"${3:false}\"></dx-text-box>",
+			"$0"
+		],
+		"description": "Text Box"
+	},
+	"dx-textarea": {
+		"prefix": "hs-textarea",
+		"body": [
+			"<dx-text-area [height]=\"${1:height}\" [maxLength]=\"${2:lenght}\" [(value)]=\"${3:value}\" [readOnly]=\"${4:false}\"></dx-text-area>",
+			"$0"
+		],
+		"description": "Text Area"
+	},
+	"dx-numberbox": {
+		"prefix": "hs-numberbox",
+		"body": [
+			"<dx-number-box",
+			"[(value)]=\"${1:value}\"",
+			"[showSpinButtons]=\"${2:true}\"",
+			"[showClearButton]=\"${3:true}\"",
+			"[disabled]=\"${4:false}\"",
+			"[readOnly]=\"${5:false}\"",
+			"[min]=\"${6:value}\" [max]=\"${7:value}\">",
+			"</dx-number-box>",
+			"$0"
+		],
+		"description": "Number Box"
+	},
+	"dx-checkbox": {
+		"prefix": "hs-checkbox",
+		"body": [
+			"<dx-check-box",
+			"[(value)]=\"${1:value}\"",
+			"[width]=\"${2:width}\"",
+			"text=\"${3:text}\">",
+			"</dx-check-box>",
+			"$0"
+		],
+		"description": "Check Box"
+	},
+	"dx-datebox": {
+		"prefix": "hs-datebox",
+		"body": [
+			"<dx-date-box [(value)]=\"${1:value}\" [type]=\"${2:datetime}\" [showClearButton]=\"${3:true}\"></dx-date-box>",
+			"$0"
+		],
+		"description": "Date Box"
+	},
+	"dx-selectbox": {
+		"prefix": "hs-selectbox",
+		"body": [
+			"<dx-select-box [items]=\"${1:array}\" [value]=\"${2:value}\" [readOnly]=\"${3:false}\" [disabled]=\"${4:false}\"></dx-select-box>",
+			"$0"
+		],
+		"description": "Select Box"
+	},
+	"dx-radio-group": {
+		"prefix": "hs-radio-group",
+		"body": [
+			"<dx-radio-group [items]=\"${1}\" [value]=\"${2}\" layout=\"${3:horizontal}\"></dx-radio-group>",
+			"$0"
+		],
+		"description": "Radio Group"
+	},
+	"dx-load-indicator": {
+		"prefix": "hs-load-indicator",
+		"body": [
+			"<dx-load-indicator width=\"${1}\" height=\"${2}\"></dx-load-indicator>",
+			"$0"
+		],
+		"description": "Load Indicator"
+	},
+	"dx-load-panel": {
+		"prefix": "hs-load-panel",
+		"body": [
+			"<dx-load-panel",
+			"shadingColor=\"${1:rgba(0,0,0,0.4)}\"",
+			"[position]=\"${2:{ of: '#Selector' }}\"",
+			"[(visible)]=\"${3:variable}\"",
+			"[showIndicator]=\"${4:true}\"",
+			"[showPane]=\"${5:true}\"",
+			"[closeOnOutsideClick]=\"${6:false}\"",
+			"(onShown)=\"${7:onShown()}\"",
+			"(onHidden)=\"${8:onHidden()}\">",
+			"</dx-load-panel>",
+			"$0"
+		],
+		"description": "Load Panel"
+	},
+	"dx-popover": {
+		"prefix": "hs-popover",
+		"body": [
+			"<dx-popover",
+			"target=\"${1:#target}\"",
+			"position=\"${2:top}\"",
+			"[width]=\"${3:300}\"",
+			"[(visible)]=\"${4:Variable}\">",
+			"<div *dxTemplate=\"let data = model of 'content'\">",
+			"Your Content",
+			"</div>",
+			"</dx-popover>",
+			"$0"
+		],
+		"description": "Popover"
+	},
+	"dx-popup": {
+		"prefix": "hs-popup",
+		"body": [
+			"<popup",
+			"[width]=\"${1:300}\"",
+			"[height]=\"${2:250}\"",
+			"title=\"${4:Title Here}\"",
+			"[(showPopup)]=\"${7:Varibale}\"",
+			"[isFullScreen]=\"${8:false}\"",
+			"(onClosing)=\"${9:function()}\"",
+			"(onOpening)=\"${10:function()}\">",
+			"Your Content",
+			"</popup>",
+			"$0"
+		],
+		"description": "Popup"
+	},
+	"dx-progress-bar": {
+		"prefix": "hs-progress-bar",
+		"body": [
+			"<dx-progress-bar",
+			"[width]=\"${1}\"",
+			"[class.complete]=\"${2}\"",
+			"[min]=\"${3:0}\"",
+			"[max]=\"${4}\"",
+			"[statusFormat]=\"${6}\"",
+			"[value]=\"${7}\">",
+			"</dx-progress-bar>",
+			"$0"
+		],
+		"description": "Progress Bar"
+	},
+	"dx-tooltip": {
+		"prefix": "hs-tooltip",
+		"body": [
+			"<dx-tooltip",
+			"target=\"${1:#target}\"",
+			"position=\"${2:top}\"",
+			"[(visible)]=\"${3:Varibale}\">",
+			"<div *dxTemplate=\"let data = data of 'content'\">",
+			"Your Content",
+			"</div>",
+			"</dx-tooltip>",
+			"$0"
+		],
+		"description": "Tooltip"
+	},
+	"dx-menu": {
+		"prefix": "hs-menu",
+		"body": [
+			"<dx-menu",
+			"[dataSource]=\"${1:dataSource}\"",
+			"displayExpr=\"${2:title}\"",
+			"orientation=\"${3:horizontal}\"",
+			"(onItemClick)=\"${4:menuItemClick($event)}\">",
+			"</dx-menu>",
+			"$0"
+		],
+		"description": "Menu"
+	},
+	"dx-button": {
+		"prefix": "dx-button",
+		"body": [
+			"<dx-button",
+			"[text]=\"${1:Text}\"",
+			"[type]=\"${2:success}\"",
+			"(onItemClick)=\"${3:buttonClick($event)}\">",
+			"</dx-menu>",
+			"$0"
+		],
+		"description": "Menu"
+	},
+	"search": {
+		"prefix": "hs-search",
+		"body": [
+			"<search",
+			"[(visible)]=\"${1:variable}\"",
+			"title=\"${2:title}\"",
+			"[scrollHeight]=\"${3:100}\"",
+			"[showSearch]=\"${4:true}\"",
+			"[showSelect]=\"${5:true}\"",
+			"(onClickSearch)=\"${6:searchClick($event)}\">",
+			"</search>",
+			"$0"
+		],
+		"description": "Menu"
+	},
+	"dx-scroll-view": {
+		"prefix": "hs-scroll-view",
+		"body": [
+			"<dx-scroll-view",
+			"[height]=\"${1:100}\"",
+			"[width]=\"${2:100}\"",
+			"[showScrollbar]=\"${3:true}\"",
+			"[direction]=\"${4:both}\">",
+			"</dx-scroll-view>",
+			"$0"
+		],
+		"description": "Menu"
+	},
+	"input-group": {
+		"prefix": "hs-input-group",
+		"body": [
+			"<input-group",
+			"label=\"${1:label}\"",
+			"hintText=\"${2:hintText}\"",
+			"(onButtonClick)=\"${3:buttonClick($event)}\"",
+			"icon=\"${4:fa fa-eye blue}\">",
+			"<dx-text-box>",
+			"</dx-text-box>",
+			"</input-group>",
+			"$0"
+		],
+		"description": "Menu"
+	},
+	"grid-toolbar": {
+		"prefix": "hs-grid",
+		"body": [
+			"<grid-toolbar (onMenuItemClick)=\"${1:menuItemClick($event)}\" [rowMenuItems]=\"${2:menuItems}\">",
+			"<dx-data-grid",
+			"#gridID",
+			"keyExpr=\"${3:ID}\"",
+			"[dataSource]=\"${4:dataSource}\"",
+			"[hoverStateEnabled]=\"${5:true}\"",
+			"[columnAutoWidth]=\"{6:true}\"",
+			"[rowAlternationEnabled]=\"${7:true}\"",
+			"[showBorders]=\"${8:true}\"",
+			"[showRowLines]=\"${9:true}\"",
+			"[height]=\"${10:100}\"",
+			"[wordWrapEnabled]=\"${11:true}\">",
+			"<dxo-selection mode=\"${12:single}\"></dxo-selection>",
+			"<dxo-editing mode=\"${13:row}\" [allowEditing]=\"${14:true}\" [allowUpdating]=\"${15:true}\" [allowAdding]=\"${16:true}\"></dxo-editing>",
+			"<dxi-column dataField=\"${17:dataField}\" caption=\"${18:{{ 'Your Text' | translate }}}\"></dxi-column>",
+			"</dx-data-grid>",
+			"</grid-toolbar>",
+			"$0"
+		],
+		"description": "Menu"
+	},
+	"dxo-lookup": {
+		"prefix": "hs-lookup",
+		"body": [
+			"<dxo-lookup",
+			"[dataSource]=\"${1:dataSource}\"",
+			"valueExpr=\"${2:ID}\"",
+			"displayExpr=\"${2:Title}\">",
+			"</dxo-lookup>",
+			"$0"
+		],
+		"description": "Menu"
+	},
+	"dx-accardion": {
+		"prefix": "hs-accardion",
+		"body": [
+			"<dx-accardion",
+			"#accardionID",
+			"[dataSource]=\"${1:dataSource}\"",
+			"[collapsible]=\"${2:true}\"",
+			"[multiple]=\"${3:true}\"",
+			"[animationDuration]=\"${4:300}\"",
+			"[(selectedItems)]=\"${5:selectedItems}\">",
+			"<div *dxTemplate=\"$let item of 'title'\">",
+			"<h6><i class=\"${6:Your Class}\">&nbsp;</i>${7:Your Title}</h6>",
+			"</div>",
+			"<div *dxTemplate=\"$let item of 'item'\">",
+			"<div *ngIf=\"item.index == 0\">",
+			"</div>",
+			"</div>",
+			"</dx-accardion>",
+			"$0"
+		],
+		"description": "Menu"
+	}
 }
